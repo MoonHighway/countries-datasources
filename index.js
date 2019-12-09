@@ -1,6 +1,5 @@
 const { ApolloServer, gql } = require("apollo-server");
 const { RESTDataSource } = require("apollo-datasource-rest");
-const { performance } = require("perf_hooks");
 
 const typeDefs = gql`
   type Country {
